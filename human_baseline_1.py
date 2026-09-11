@@ -40,7 +40,7 @@ from PIL import Image, ImageTk, ImageOps
 # │   └── Global_Data_Set_XvsX_0.csv
 # └── human_baseline_1.py
 
-ROOT = Path.cwd()
+ROOT = Path(__file__).resolve().parent
 IMAGE_DIR = ROOT / "Data" / "Great_UK_WaterBlitz"
 PHOTO_MANIFEST = ROOT / "Data" / "photo_manifest.xlsx"
 MAIN_DATA_FILE = ROOT / "Data" / "Global_Data_Set_XvsX_0.csv"
