@@ -3,7 +3,7 @@ Human Baseline Water Quality Judgement Script
 
 # Code
 
-The main script is _human_baseline_1.py_ which does the following:
+The main script is _human_baseline_1.py_ which does the following:\
   Asks a participant how many photos they want to judge.
   
   The participant is shown photos one at a time and selects:\
@@ -24,7 +24,7 @@ You can use the _requirements.txt_ file in a virtual environment. In Windows:\
       2. Activate the virtual environment: .venv\Scripts\Activate.ps1\
       3. Use the requirements.txt file python -m pip install -r requirements.txt
 
-Run the script using python3 human_baseline_1.py
+Run the script using _python3 human_baseline_1.py_
 
 # Data
 
