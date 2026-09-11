@@ -27,7 +27,7 @@ import random
 import tkinter as tk
 from tkinter import messagebox
 import pandas as pd
-from PIL import Image, ImageTk
+from PIL import Image, ImageTk, ImageOps
 
 
 #Set paths
@@ -432,8 +432,11 @@ def show_current_photo():
         text=image_path.name
     )
 
-    # Load image
+    #Load image
     image = Image.open(image_path)
+    
+    #Correct the orientation using the photo's EXIF metadata
+    image = ImageOps.exif_transpose(image)
 
     #Resize image to fit window
 
