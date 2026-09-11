@@ -32,3 +32,6 @@ Contains the photo manifest _photo_manifest.xslx_ and the global dataset _Global
 Also contains some sample photos from the Great_UK_WaterBlitz folder of photos. You can replace that sample folder with the full folder of images for a larger sample, but that folder will not upload to GitHub. 
 
 # Results
+
+Results are saved in the _human_baseline_results_ folder. This will contain multiple files for each person who does the guessing, as well as an _human_baseline_results_overall_ csv file which contains the cumulative results and is used to work out the overall human baseline accuracy.\
+Please make sure you _git pull_ before running the _human_baseline_1.py_ script so that the overall csv is up to date, and please push your changes as soon as possible once you have finished, preventing merge issues (I think?). 
