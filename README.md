@@ -24,7 +24,7 @@ You can use the _requirements.txt_ file in a virtual environment. In Windows:\
       2. Activate the virtual environment: .venv\Scripts\Activate.ps1\
       3. Use the requirements.txt file python -m pip install -r requirements.txt
 
-Run the script using _python3 human_baseline_1.py_
+Run the script using _python3 .\human_baseline_1.py_
 
 # Data
 
